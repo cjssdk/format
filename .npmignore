@@ -1,0 +1,6 @@
+.idea
+doc
+tests
+.editorconfig
+.eslintrc
+.travis.yml

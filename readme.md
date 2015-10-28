@@ -6,7 +6,7 @@ String substitution according to the given format
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/stb)
 
 
-`util-format` is good JavaScript equivalent of the C/PHP `sprintf` function.
+`util-format` is simplified speed-oriented JavaScript equivalent of the C/PHP `sprintf` function.
 
 
 ## Installation

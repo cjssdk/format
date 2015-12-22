@@ -1,18 +1,18 @@
 String substitution according to the given format
 =================================================
 
-[![NPM version](https://img.shields.io/npm/v/stb-util-format.svg?style=flat-square)](https://www.npmjs.com/package/stb-util-format)
-[![Dependencies Status](https://img.shields.io/david/stbsdk/util-format.svg?style=flat-square)](https://david-dm.org/stbsdk/util-format)
+[![NPM version](https://img.shields.io/npm/v/cjs-format.svg?style=flat-square)](https://www.npmjs.com/package/cjs-format)
+[![Dependencies Status](https://img.shields.io/david/cjssdk/format.svg?style=flat-square)](https://david-dm.org/cjssdk/format)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/stb)
 
 
-`util-format` is simplified speed-oriented JavaScript equivalent of the C/PHP `sprintf` function.
+`cjs-format` is simplified speed-oriented JavaScript equivalent of the C/PHP `sprintf` function.
 
 
 ## Installation
 
 ```bash
-npm install stb-util-format
+npm install cjs-format
 ```
 
 
@@ -21,7 +21,7 @@ npm install stb-util-format
 Add to the scope:
 
 ```js
-var format = require('stb-util-format');
+var format = require('cjs-format');
 ```
 
 Simple replacement:
@@ -55,10 +55,10 @@ In debug mode the util method is exposed to the global namespace as `window.util
 
 ## Contribution
 
-If you have any problem or suggestion please open an issue [here](https://github.com/stbsdk/util-format/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/cjssdk/format/issues).
 Pull requests are welcomed with respect to the [JavaScript Code Style](https://github.com/DarkPark/jscs).
 
 
 ## License
 
-`stb-util-format` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).
+`cjs-format` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).

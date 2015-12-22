@@ -1,7 +1,5 @@
 /**
- * @module stb-util-format
- *
- * @author Stanislav Kalashnik <sk@infomir.eu>
+ * @author Stanislav Kalashnik <darkpark.main@gmail.com>
  * @license GNU GENERAL PUBLIC LICENSE Version 3
  */
 
@@ -22,22 +20,16 @@
  * console.log(format('This is a {0} and a {1} and another {0}', 'cat', 'dog'));
  */
 module.exports = function ( format ) {
-	var args = Array.prototype.slice.call(arguments, 1),
-		expr = /{(\d+)}/g;
+    var args = Array.prototype.slice.call(arguments, 1),
+        expr = /{(\d+)}/g;
 
-	if ( DEBUG ) {
-		if ( !format ) { throw new Error(__filename + ': format string is empty'); }
-		if ( args.length === 0 )  { throw new Error(__filename + ': no arguments'); }
-		if ( !expr.test(format) ) { throw new Error(__filename + ': format string does not have substitutions: ' + format); }
-	}
+    if ( DEBUG ) {
+        if ( !format ) { throw new Error(__filename + ': format string is empty'); }
+        if ( args.length === 0 )  { throw new Error(__filename + ': no arguments'); }
+        if ( !expr.test(format) ) { throw new Error(__filename + ': format string does not have substitutions: ' + format); }
+    }
 
-	return format.replace(expr, function ( match, number ) {
-		return args[number] !== undefined ? args[number] : match;
-	});
+    return format.replace(expr, function ( match, number ) {
+        return args[number] !== undefined ? args[number] : match;
+    });
 };
-
-
-if ( DEBUG ) {
-	// expose to the global scope
-	window.utilFormat = module.exports;
-}

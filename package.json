@@ -6,11 +6,12 @@
         "name": "Stanislav Kalashnik",
         "email": "darkpark.main@gmail.com"
     },
-    "repository": "cjssdk/util-format",
+    "repository": "cjssdk/format",
     "scripts": {
         "lint": "eslint ./*.js",
         "test": "node ./tests/main.js"
     },
+    "dependencies": {},
     "devDependencies": {
         "mocha": "2.*.*",
         "should": "8.*.*"

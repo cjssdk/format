@@ -9,14 +9,14 @@ String substitution according to the given format
 Simplified speed-oriented JavaScript equivalent of the C/PHP `sprintf` function.
 
 
-## Installation
+## Installation ##
 
 ```bash
 npm install cjs-format
 ```
 
 
-## Usage
+## Usage ##
 
 Add to the scope:
 
@@ -46,17 +46,17 @@ console.log(format('This is a {0} and a {1} and another {0}', 'cat', 'dog'));
 ```
 
 
-## Debug mode
+## Debug mode ##
 
 > There is a global var `DEBUG` which activates additional consistency checks and protection logic not available in release mode.
 
 
-## Contribution
+## Contribution ##
 
 If you have any problem or suggestion please open an issue [here](https://github.com/cjssdk/format/issues).
 Pull requests are welcomed with respect to the [JavaScript Code Style](https://github.com/DarkPark/jscs).
 
 
-## License
+## License ##
 
 `cjs-format` is released under the [GPL-3.0 License](http://opensource.org/licenses/GPL-3.0).

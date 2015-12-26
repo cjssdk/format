@@ -1,5 +1,3 @@
 .idea
 tests
-.editorconfig
-.eslintrc
 .travis.yml

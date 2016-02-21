@@ -3,6 +3,8 @@
  * @license GNU GENERAL PUBLIC LICENSE Version 3
  */
 
+/* eslint no-path-concat: 0 */
+
 'use strict';
 
 
@@ -30,6 +32,6 @@ module.exports = function ( format ) {
     }
 
     return format.replace(expr, function ( match, number ) {
-        return args[number] !== undefined ? args[number] : match;
+        return args[number] === undefined ? match : args[number];
     });
 };

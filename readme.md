@@ -1,6 +1,7 @@
 String substitution according to the given format
 =================================================
 
+[![Build Status](https://img.shields.io/travis/cjssdk/format.svg?style=flat-square)](https://travis-ci.org/cjssdk/format)
 [![NPM version](https://img.shields.io/npm/v/cjs-format.svg?style=flat-square)](https://www.npmjs.com/package/cjs-format)
 [![Dependencies Status](https://img.shields.io/david/cjssdk/format.svg?style=flat-square)](https://david-dm.org/cjssdk/format)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/cjssdk)

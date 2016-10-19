@@ -1,6 +1,6 @@
 {
     "name": "cjs-format",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "String substitution according to the given format.",
     "author": {
         "name": "Stanislav Kalashnik",

@@ -15,11 +15,6 @@
  * @param {string} format string substitution format
  *
  * @return {string} result data
- *
- * @example
- * console.log(format('This is a {0}', 'cat'));
- * console.log(format('This is a {0} and a {1}', 'cat', 'dog'));
- * console.log(format('This is a {0} and a {1} and another {0}', 'cat', 'dog'));
  */
 module.exports = function ( format ) {
     var args = Array.prototype.slice.call(arguments, 1),

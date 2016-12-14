@@ -21,9 +21,15 @@ module.exports = function ( format ) {
         expr = /{(\d+)}/g;
 
     if ( DEVELOP ) {
-        if ( !format ) { throw new Error(__filename + ': format string is empty'); }
-        if ( args.length === 0 )  { throw new Error(__filename + ': no arguments'); }
-        if ( !expr.test(format) ) { throw new Error(__filename + ': format string does not have substitutions: ' + format); }
+        if ( !format ) {
+            throw new Error(__filename + ': format string is empty');
+        }
+        if ( args.length === 0 ) {
+            throw new Error(__filename + ': no arguments');
+        }
+        if ( !expr.test(format) ) {
+            throw new Error(__filename + ': format string does not have substitutions: ' + format);
+        }
     }
 
     return format.replace(expr, function ( match, number ) {

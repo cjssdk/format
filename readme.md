@@ -2,11 +2,11 @@ String substitution according to the given format
 =================================================
 
 [![build status](https://img.shields.io/travis/cjssdk/format.svg?style=flat-square)](https://travis-ci.org/cjssdk/format)
-[![npm version](https://img.shields.io/npm/v/@cjssdk/format.svg?style=flat-square)](https://www.npmjs.com/package/@cjssdk/format)
+[![npm version](https://img.shields.io/npm/v/cjs-format.svg?style=flat-square)](https://www.npmjs.com/package/cjs-format)
 [![dependencies status](https://img.shields.io/david/cjssdk/format.svg?style=flat-square)](https://david-dm.org/cjssdk/format)
 [![devDependencies status](https://img.shields.io/david/dev/cjssdk/format.svg?style=flat-square)](https://david-dm.org/cjssdk/format?type=dev)
 [![Gitter](https://img.shields.io/badge/gitter-join%20chat-blue.svg?style=flat-square)](https://gitter.im/DarkPark/cjssdk)
-[![RunKit](https://img.shields.io/badge/RunKit-try-yellow.svg?style=flat-square)](https://npm.runkit.com/@cjssdk/format)
+[![RunKit](https://img.shields.io/badge/RunKit-try-yellow.svg?style=flat-square)](https://npm.runkit.com/cjs-format)
 
 
 Simplified speed-oriented JavaScript equivalent of the C/PHP `sprintf` function.
@@ -15,7 +15,7 @@ Simplified speed-oriented JavaScript equivalent of the C/PHP `sprintf` function.
 ## Installation ##
 
 ```bash
-npm install @cjssdk/format
+npm install cjs-format
 ```
 
 
@@ -24,7 +24,7 @@ npm install @cjssdk/format
 Add to the scope:
 
 ```js
-var format = require('@cjssdk/format');
+var format = require('cjs-format');
 ```
 
 Simple replacement:
@@ -62,4 +62,4 @@ according to the contribution [rules](.github/contributing.md).
 
 ## License ##
 
-`@cjssdk/format` is released under the [MIT License](license.md).
+`cjs-format` is released under the [MIT License](license.md).

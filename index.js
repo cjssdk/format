@@ -12,7 +12,7 @@
  * Do string substitution according to the given format.
  * http://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format
  *
- * @param {string} format string substitution format
+ * @param {string} format - string substitution format
  *
  * @return {string} result data
  */
